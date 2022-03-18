@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu "primeiro" Programa</title>
+    <style>
+        body{
+            background-color: rgb(0, 89, 255);
+            font: normal 2em arial;
+        }
+
+        h1{
+            color: rgb(194, 34, 5);
+        }
+
+        /* Comentário CSS */
+
+        p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>
+        Já me livrei da maldição! <!-- Comentario HTML-->
+    </p>
+
+    <script>
+
+        var n1 = Number.parseFloat(prompt('Digite um número: '))
+        var n2 = Number.parseFloat(prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma é ' + s) // Concatenação
+
+        // number + number para adição
+        // string + string para concatenação.
+
+        /* Posso usar var n1 = Number(prompt(''))
+        De numero para String posso usar String(n) ou n.toString()
+        Ex: ('A soma é ' + String(s) ou s.toString())*/
+
+        /*Utilizando a crase = alert(`A soma entre ${n1} e ${n2} é ${s}`)*/
+    </script>
+</body>
+</html>
